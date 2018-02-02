@@ -148,6 +148,36 @@ nav ul {
   padding: 1rem 2rem;
 }
 
+@media only screen and (max-width: 1024px) {
+  .product {
+    width: 47%;
+  }
+
+  .product.glasses {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .product {
+    width: 90%;
+    margin: auto;
+  }
+
+  .product.watch {
+    display: none;
+  }
+
+  .business-info {
+    flex-wrap: wrap;
+  }
+
+  .info {
+    width: 90%;
+    margin: 0.5rem auto;
+  }
+}
+
 /* Footer */
 footer {
   color: white;
@@ -155,4 +185,10 @@ footer {
   background-color: black;
   padding: 5rem;
   margin-top: 4rem;
+}
+
+@media only screen and (max-width: 470px) {
+  footer {
+    text-align: center;
+  }
 }
