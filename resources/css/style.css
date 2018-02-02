@@ -129,17 +129,10 @@ nav ul {
 }
 
 /* Footer */
-/* footer {
+footer {
   color: white;
   text-align: left;
   background-color: black;
-  height: 5rem;
+  padding: 5rem;
   margin-top: 4rem;
-} */
-
-footer {
-  padding: 5rem 0;
-  margin-top: 4rem;
-  background-color: black;
-  color: white;
 }
